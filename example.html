@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Showcase</title>
+    <style>
+        #myParentElement {
+            width: 100vw;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="myParentElement">
+        <canvas id="myCanvas"></canvas>
+    </div>
+</body>
+<script src="network.js" type="text/javascript"></script>
+<script type="text/javascript">
+    nwSetup.canvasId = 'myCanvas';
+    nwSetup.parentId = 'myParentElement';
+    nwSetup.networkColor = '#333333';
+
+    nwRender();
+</script>
+</html>
