@@ -32,14 +32,14 @@ give the network the canvas ID, the parent ID, and the network color; and render
 
 ## Modify the Network
 The network has three required parameters:
-```
+```JavaScript
     nwSetup.canvasId      // string with canvas ID
     nwSetup.parentId      // string with parent ID
     nwSetup.networkColor  // string with color value in HEX
 ```
 
 For further customizability, optional parameters can be set:
-```
+```JavaScript
     nwSetup.interactive         // boolean to turn mouse interaction on or off (default: true)
     nwSetup.backgroundColor     // string with color value in HEX (default: #FFFFFF)
     nwSetup.nodeRadius          // number to define node radius (default: 2)
